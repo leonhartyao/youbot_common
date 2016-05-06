@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<launch>
+	<!-- Launch the inverse kinematic solver service -->
+	<node name="ik_solver_service" pkg="ik_solver_service" type="ik_solver_service" output="screen" />
+</launch>
