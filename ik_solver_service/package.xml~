@@ -5,7 +5,8 @@
   <version>0.1.0</version>
   <description>ik_solver_service</description>
 
-  <maintainer email="chao.yao@tu-dresden.de">Chao Yao</maintainer>
+  <maintainer email="mueggler@ifi.uzh.ch">Elias Mueggler</maintainer>
+  <maintainer email="faessler@ifi.uzh.ch">Matthias Faessler</maintainer>
 
   <license>GNU GPL</license>
 
