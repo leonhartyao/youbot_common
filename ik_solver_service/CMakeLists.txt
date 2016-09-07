@@ -37,6 +37,7 @@ generate_messages(
   DEPENDENCIES
     geometry_msgs
     std_msgs
+    brics_actuator
 )
 
 catkin_package(
