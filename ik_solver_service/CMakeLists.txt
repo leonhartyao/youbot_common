@@ -8,6 +8,7 @@ find_package(catkin REQUIRED
 	geometry_msgs
 	std_msgs
 	cmake_modules
+	brics_actuator
 )
 
 find_package(Eigen REQUIRED)
