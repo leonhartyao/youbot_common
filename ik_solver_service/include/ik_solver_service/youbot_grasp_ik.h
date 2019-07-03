@@ -29,6 +29,7 @@ class YoubotGraspIK
 public:
   YoubotGraspIK()
   {
+
   }
 
   static joint_positions_solution_t solveClosestIK(joint_positions_solution_t current_joint_positions,
@@ -83,14 +84,12 @@ private:
   static bool checkSingleSolutionFeasability(joint_positions_solution_t single_solution);
   static joint_positions_solution_t computeSingleIKSolution(Eigen::Vector3d des_position, double des_roll,
                                                             double des_pitch, int id);
-
   // Geometric Constants
-  static const double lox_ = 0.033;
-  static const double loz_ = 0.1472;
-  static const double l_2_ = 0.155;
-  static const double l_3_ = 0.135;
-  static const double l_4_ = 0.218 + 0.13; // Including marker
-
+  static constexpr float lox_ = 0.033;
+  static constexpr float loz_ = 0.1472;
+  static constexpr float l_2_ = 0.155;
+  static constexpr float l_3_ = 0.135;
+  static constexpr float l_4_ = 0.218 + 0.13; // Including marker
 };
 
 double deg2Rad(double angle_in_deg);
